@@ -35,36 +35,36 @@
 
 <body>
     <div class="split left">
-        <form id="formInfo">
-            <input type="text" name="first_name" id="firstName" placeholder="First Name"><br>
-            <input type="text" name="last_name" id="lastName" placeholder="Last Name"><br>
-            <input type="text" name="age" id="age" placeholder="Age"><br>
+        <form id="formInfo" class="centered">
+            <input class="space" type="text" name="first_name" id="firstName" placeholder="First Name" required><br>
+            <input class="space" type="text" name="last_name" id="lastName" placeholder="Last Name" required><br>
+            <input class="space" type="text" name="age" id="age" placeholder="Age" required><br>
             Gender<br>
             <input type="radio" id="male" name="Gender" value="Male" required>
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="Gender" value="Female">
             <label for="female">Female</label><br>
-            <input type="text" name="roll_no" id="rollNo" placeholder="Roll No"><br>
+            <input class="space" type="text" name="roll_no" id="rollNo" placeholder="Roll No" required><br>
             <label for="birthday">DOB:</label><br>
-            <input type="date" id="birthday" id="birthday" name="birthday"><br>
-            <label for="hobbies">Hobbies:</label>
-            <input type="text" id="hobbies" name="hobbies"><br>
-            <label for="OS Type">OS Type:</label>
+            <input class="space" type="date" id="birthday" id="birthday" name="birthday" required><br>
+            <label for="hobbies">Hobbies:</label><br>
+            <input class="space" type="text" id="hobbies" name="hobbies" required><br>
+            <label for="OS Type">OS Type:</label><br>
             <!-- create dropdown -->
-            <select id="osType" name="OS_Type">
+            <select class="space" id="osType" name="OS_Type" >
                 <option value="" selected disabled hidden>Choose here</option>
                 <option value="Android">Android</option>
                 <option value="IOS">IOS</option>
             </select><br>
-            <button type="submit">Submit</button>
+            <button type="submit" class="space" >Submit</button>
         </form>
     </div>
     <div class="split right">
-        <div id="display">
+        <div id="display" class="centered">
             <input type="text" id="getRollNo" value="">
             <button id="get">Get</button>
         </div>
-        <div id="content">
+        <div id="content" class="centered">
 
         </div>
     </div>

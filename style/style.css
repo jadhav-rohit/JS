@@ -6,20 +6,30 @@
     top: 0;
     overflow-x: hidden;
     padding-top: 20px;
+    border: 1px solid black;;
   }
 
   /* Control the left side */
 .left {
     left: 0;
-    /* background-color: #111; */
   }
   
   /* Control the right side */
   .right {
     right: 0;
-    /* background-color: red; */
   }
 
+  .centered {
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    text-align: center;
+  }
+
+  .space {
+    margin: 10px;
+  }
 
 
 
